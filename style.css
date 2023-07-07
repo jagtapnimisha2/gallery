@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* border: 1px solid black; */
+     margin: 10px;
+}
+.container{
+    
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-column-gap: 100px;
+   grid-row-gap: 1px;
+  
+}
+.item>img{
+    border: 3px solid black;
+  border-radius: 14px;
+  height: 187px;
+  width: 290px;
+
+}
